@@ -25,14 +25,6 @@ html{
     transform: scale(1.4);
 }
 
-#logo-login{
-    position: absolute;
-    left: 0%;
-    width: 21vw;
-    height: 200px;;
-    top: 15%;
-    background-image: url("booklogo1.png");
-}
 .userinput{
     background-color: white;
     border: 1px solid black;
@@ -57,4 +49,10 @@ button{
 
 h1{
   color: white;  
+}
+/* if vieweport width is 767 or less, apply the following styles*/
+@media (max-width: 768px){
+    #loginform{
+        transform: scale(1.4);
+    }
 }
