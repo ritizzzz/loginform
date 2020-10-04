@@ -1,0 +1,60 @@
+html{
+    background: url(lfbg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#loginform{
+    width: 400px;
+    height: 500px;
+    background:rgba(0,0,0,0.6);
+    border:1px solid black;
+    position: relative;
+    left: calc(50vw - 200px);
+    top: calc(50vh - 250px);
+   
+}
+#logbod{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    transform: scale(1.4);
+}
+
+#logo-login{
+    position: absolute;
+    left: 0%;
+    width: 21vw;
+    height: 200px;;
+    top: 15%;
+    background-image: url("booklogo1.png");
+}
+.userinput{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 2px;
+   
+}
+input{
+    margin-left: calc(150px - 90.5px);
+}
+form{
+    display: inline;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(red, orange);
+    border: none;
+    border-radius: 10%;
+}
+
+h1{
+  color: white;  
+}
